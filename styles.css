@@ -1,3 +1,43 @@
+*{
+    border: 1px solid red;
+
+}
+
+h1{
+    text-align: center;
+}
+
 body{
     color: mediumspringgreen;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
 }
+
+.container1{
+    background-color: lightseagreen;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+
+}
+
+.container2{
+    background-color: navajowhite;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+}
+
+/* .container2:hover{
+    box-shadow: 5px 5px 3px 3px lavender;
+    border: 10px solid whitesmoke; 
+    color: black;
+} */
