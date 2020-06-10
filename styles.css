@@ -1,43 +1,131 @@
-*{
-    border: 1px solid red;
-
-}
-
-h1{
-    text-align: center;
-}
-
 body{
-    color: mediumspringgreen;
+    color: gold;
     display: flex;
     flex-direction: column;
     align-content: center;
     width: 100%;
+    height: 100%;
+    
+    
+    
+    
+    
 }
 
-.container1{
-    background-color: lightseagreen;
-    width: 30%;
+div{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+    font-stretch: ultra-expanded;
+} 
+
+ .container{ 
+    display: flex; 
+    flex-direction: column;  
+    align-content: center;  
+    width: 500px; 
+    height: 100%; 
+    background-color: black; 
+    text-align: center; 
+    border-radius: 3%; 
+    
+   
+    
+} 
+
+ .display{ 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-stretch: ultra-expanded;
+    margin-bottom: 10px;
+    text-align: right;
+    width: 90%;
+    margin: 0 auto;
+    
+
+
+}  
+
+ .item1{
+    width: 200px;
+    height: 50px;
+    background-color: grey;
+    margin: 0px;
+    font-size: 230%;
+    opacity: 25%;
+    
+    
+}
+
+.buttons{
+    width: 100px;
     height: 100px;
+    background-color: blanchedalmond;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, black, gray, white);
+    
+} 
+p{
+
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.row{
+    background-color: lightseagreen;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSst5elVECxMGrxN_PSgDRyi2HRLDrkwhbBSFvIIjiQDy8iwfuD&usqp=CAU); background-position: center; 
+    width: 500px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center; 
     margin: 0 auto;
+    flex-wrap: wrap;
+    
+    
+    
+
 
 }
 
-.container2{
-    background-color: navajowhite;
-    width: 30%;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    margin: 0 auto;
-}
-
-/* .container2:hover{
-    box-shadow: 5px 5px 3px 3px lavender;
-    border: 10px solid whitesmoke; 
+.buttons:hover{
+    /* box-shadow: 5px 5px 3px 3px lavender; */
+    border: 5px solid whitesmoke; 
     color: black;
-} */
+
+}
+
+#zeroButton{
+    width: 200px;
+}
+
+.calculator{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+h1{
+    font-size: 15px;
+    font: message-box;
+    
+}
+
+#zeroNum{
+    background-color: honeydew;
+    width: 455px;
+    line-height: 50px;
+    margin: 10px auto;
+    
+}
+p1{
+    text-align: right;
+}

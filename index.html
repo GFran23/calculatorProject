@@ -1,19 +1,57 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!DOCTYPE html> <!--Declare an HTML Document -->
+<html> <!-- HTML Opening Tag -->
+
+<head> <!-- Opening Head Tag  -->
     <title>Calculator</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css"> <!-- Referencing Our STyle Sheet -->
+</head> <!-- Closing Head Tag -->
 
-<body>
-    <h1>Groovy Calculator</h1>
-    <div class="container1">
-        <div style="height: 40px;" class="item1"></div>
+<body> <!-- Body Tag -->
+    
+    <div class="container"> <!-- Main Container -->
+      <div class="display" id="zeroNum"><p1>0</p1></div>
+
+    <div class="calculator">
+        <div class="item1">| | | | </div>
+        <h1> INFINITE INSTRUMENTS TM-101</h1>
+    </div>
+    
+
+    <div class="row">
+        <div class="buttons"><p>AC</p></div>
+        <div class="buttons"><p>+/-</p></div>
+        <div class="buttons"><p>%</p></div>
+        <div class="buttons"><p>➗</p></div>
     </div>
 
-    <div class="container2">
-        <div class="item1"></div>
-
+    <div class="row">
+        <div class="buttons"><p>7</p></div>
+        <div class="buttons"><P>8</P></div>
+        <div class="buttons"><p>9</p></div>
+        <div class="buttons"><p>✖️</p></div>
     </div>
-</body>
-</html>
+
+    <div class="row">
+        <div class="buttons"><p>4</p></div>
+        <div class="buttons"><p>5</p></div>
+        <div class="buttons"><p>6</p></div>
+        <div class="buttons"><p>➖</p></div>
+    </div>
+
+    <div class="row">
+        <div class="buttons"><p>1</p></div>
+        <div class="buttons"><p>2</p></div>
+        <div class="buttons"><p>3</p></div>
+        <div class="buttons"><p>➕</p></div>
+    </div>
+
+    <div class="row">
+        <div class="buttons" id="zeroButton"><p>0</p></div>
+        <div class="buttons"><p>.</p></div>
+        <div class="buttons"><p>=</p></div>
+    </div>
+    <p></p>
+</div>
+<script src="calc.js"></script>
+</body> <!-- CLosing Body Tag -->
+</html> <!-- HTML Closing Tag -->
